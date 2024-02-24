@@ -12,11 +12,10 @@ const Home = () => {
             <BrakingNews></BrakingNews>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
                 <div className=" border-2">
-                    <RightSideNav></RightSideNav>
+                    <LeftSideNav></LeftSideNav>
                 </div>
                 <div className="md:col-span-2 border-2">News Comming soon</div>
-                <div className="border-2">
-                    <LeftSideNav></LeftSideNav>
+                <div className=""><RightSideNav></RightSideNav>
                 </div>
             </div>
         </div>
