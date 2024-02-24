@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import profile from "../../../assets/user.png";
 
 const Nav = () => {
     const navLinks = <>
@@ -25,6 +26,9 @@ const Nav = () => {
                 </ul>
             </div>
             <div className="navbar-end">
+                <div className="w-10 rounded-full lg:mr-6 md:mr-4 mr-3">
+                    <img alt="Defult Profile" src={profile} />
+                </div>
                 <Link className="btn">Login</Link>
             </div>
         </div>
