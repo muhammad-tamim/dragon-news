@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
 
-const Roots = () => {
+
+const Root = () => {
     return (
         <div className="max-w-6xl mx-auto font-poppins">
-            <Outlet></Outlet>
+            <Outlet></Outlet>      
         </div>
     );
 };
 
-export default Roots;
+export default Root;
